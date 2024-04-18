@@ -1,4 +1,4 @@
-#Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk  <br>
+Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk  <br>
 
 Tamar Landau MA 1 (ORCID ID: 0000-0001-6754-7033) Keren Gamrasni
 DVM 1 , Alex Levin 1 , Oliver Sanders MD 2 , Shira Benor MD 3,4,5* , Michael
@@ -31,8 +31,7 @@ Healthcare Services, Israel (October 2022, approval number 0026-22-LEU). A
 written informed consent waiver was obtained by the Helsinki committee
 based on the nature of the study, specifically the use of deidentified and
 previously collected data. <br>
-\\
-\\
+
 Atopic dermatitis (AD), is a common, complex and heterogeneous
 inflammatory skin disease [1] . A large subset of patients develop AD by 5
 years of age, which directly affects quality of life [2] , and increases risk for a
