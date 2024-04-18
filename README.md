@@ -1,8 +1,10 @@
 Development and Validation of a Prognostic Clinical Risk Score for
-Subsequent Atopic Dermatitis Risk
+Subsequent Atopic Dermatitis Risk 
+\\
 Tamar Landau MA 1 (ORCID ID: 0000-0001-6754-7033) Keren Gamrasni
 DVM 1 , Alex Levin 1 , Oliver Sanders MD 2 , Shira Benor MD 3,4,5* , Michael
 Brandwein PhD (ORCID ID: 0000-0003-4271-3837) 1*
+\\
 1 MYOR Diagnostics ltd., Zichron Yaakov, Israel
 2 Department of Pediatrics, Hadassah University Medical Center, Jerusalem,
 Israel
@@ -12,7 +14,7 @@ Israel
 Corresponding Authors: Dr. Shira Benor shirabe@tlvmc.gov.il &amp; Dr. Michael
 Brandwein michael@myorcare.com (Barket 29, Zichron Yaakov, Israel, +972-
 549575300)
-
+\\
 Author Contributions: Tamar Landau – Data Curation (supporting), Formal
 Analysis (lead), Investigation (supporting), Writing – Review &amp; Editing (equal),
 Keren Gamrasni –Project Administration (supporting), Investigation
@@ -30,10 +32,8 @@ Healthcare Services, Israel (October 2022, approval number 0026-22-LEU). A
 written informed consent waiver was obtained by the Helsinki committee
 based on the nature of the study, specifically the use of deidentified and
 previously collected data.
-
-2
-
-To the Editor,
+\\
+\\
 Atopic dermatitis (AD), is a common, complex and heterogeneous
 inflammatory skin disease [1] . A large subset of patients develop AD by 5
 years of age, which directly affects quality of life [2] , and increases risk for a
@@ -56,13 +56,12 @@ before the age of three (n=7,370) and a random sample of infant-mother
 dyads selected from the Leumit EMR whereby AD was not diagnosed in the
 child&#39;s EMR (n=63,852). Leumit is one of four national health providers and its
 EMR captures routine data from all medical consultations, procedures, and
-prescriptions, along with relevant sociodemographic data. The US-based
-
-3
+prescriptions, along with relevant sociodemographic data. The US-based 3
 Infant Feeding Practices Study 2 (IFPS2) was used as a validation dataset [7] .
 The cohort included a nationally distributed panel of 1,807 infants born
 between 2005-2007, of which 389 (21.5%) reported a doctor&#39;s diagnosis of
 AD by the age of one.
+\\
 All variables both identified in previous studies and present in the Leumit EMR
 were included (sex, season of birth, household smoking, socioeconomic
 status, urban/rural dwelling, presence of siblings, sibling history of AD and/or
@@ -80,11 +79,10 @@ the relative contribution of each group to the overall risk score (Figure 1A).
 This information is used to tabulate a fetus&#39;s variable AD risk as follows:
 ((Wd*Demography Score + Ws*Siblings Score + Wp*Parent Score)/Max
 Score)+C, where C is the underlying population prevalence of AD.
+\\
 The scoring method is designed to generate a value from 0 to 1, representing
 the probable risk in probabilistic terms, and can be effectively calculated if
 some variables are missing. We divided the results into high (&gt;0.5), medium
-
-4
 (0.35-0.5) and low risk groups (&lt;0.35). The joint distribution of age at first AD
 diagnosis and AD Score is depicted in Figure 1B. There was a significant
 difference in means among the risk groups in relation to the actual cases of
@@ -103,6 +101,7 @@ dataset. These high-risk OR&#39;s are more than double the OR of the SOC
 parental history of atopy calculated in the original multivariate model (OR
 1.57, CI 1.43-1.72, p&lt;0.001) and demonstrate the utility of this method over
 the current SOC.
+\\
 This prognostic AD risk assessment model harnesses known environmental
 and familial associations into a quantifiable and applicable clinical tool. It holds
 the potential to inform clinicians and caregivers as to an infant&#39;s risk of
@@ -110,8 +109,6 @@ developing AD thereby influencing the continuum of care, enabling earlier
 diagnosis, and targeting patients to adopt preventive measures for other
 atopic conditions. Furthermore, it can reduce cohort sizes for AD-prevention
 clinical trials. While developed on epidemiological data from an EMR, the
-
-5
 validation study showed its applicability on a geographically distinct survey-
 based cohort, thereby opening the door to deployment in a variety of settings.
 Future studies can further this approach by incorporating additional
