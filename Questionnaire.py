@@ -79,7 +79,7 @@ def run_quest(question):
             score += 4
     if input(question[11].prompt) == oneplus:
             score += 10
-    calc_score = (score/49) + 0.1        
+    calc_score = (score/51.5) + 0.1        
     final_score = score_cat(calc_score)                                                                                         
     print ("The baby's AD risk category: " + final_score) 
 
