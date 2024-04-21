@@ -31,7 +31,7 @@ Characteristics of Training & Validation sets
 ```
 
 
-## Table 2 **<br>**
+## Table 2 : Predictive Probability of AD Across Assessed Variables **<br>**
 
 The adjusted and unadjusted association between variables and outcome (AD). <br>
 This table demonstrated the varaiables individual effect within each group and withing the complete model. 
