@@ -11,7 +11,8 @@ question_prompts = [
     "Does anyone in the household smoke? \n(a) Yes \n(b) No \n\n",
     "What is your social economic status? \n(a) Medium-High \n(b) Medium-Low \n\n",
 
-    "Parents Information: \n\nDoes any of the biological parents have or use to have an atopic condition? \n(a) Yes \n(b) No \n\n",
+    "Parents Information: \n\nDoes the baby's mother have or use to have an atopic condition? \n(a) Yes \n(b) No \n\n",
+    "Does the baby's father have or use to have an atopic condition? \n(a) Yes \n(b) No \n\n",
     "Does any of the biological parents have or use to have an Atopic Dematitis? \n(a) Yes \n(b) No \n\n",
     "Did the baby's mother consume antibiotics during pregnancy? \n(a) Yes \n(b) No \n\n",
 
@@ -32,10 +33,11 @@ questions = [
     Question(question_prompts[5], "a"),
     Question(question_prompts[6], "a"),
     Question(question_prompts[7], "a"),
-
     Question(question_prompts[8], "a"),
+
     Question(question_prompts[9], "a"),
-    Question(question_prompts[10], "a")
+    Question(question_prompts[10], "a"),
+    Question(question_prompts[11], "a")
 ]
 
 
@@ -66,14 +68,16 @@ def run_quest(question):
     if input(question[5].prompt) == oneplus:
             score += 2.5
     if input(question[6].prompt) == oneplus:
-            score += 5
+            score += 2.5    
     if input(question[7].prompt) == oneplus:
-            score += 1.5
+            score += 5
     if input(question[8].prompt) == oneplus:
-            score += 6
+            score += 1.5
     if input(question[9].prompt) == oneplus:
-            score += 4
+            score += 6
     if input(question[10].prompt) == oneplus:
+            score += 4
+    if input(question[11].prompt) == oneplus:
             score += 10
     calc_score = (score/49) + 0.1        
     final_score = score_cat(calc_score)                                                                                         
