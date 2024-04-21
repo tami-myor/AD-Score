@@ -36,5 +36,5 @@ The development and validation patiants characteristics
 The adjusted and unadjusted association between the score's varaiables and outcome (AD).
 
 
-![Alt text](C:\Users\User\Desktop\AD\AD score\AD score figure.jpg)
+`![Alt text](C:\Users\User\Desktop\AD\AD score\AD score figure.jpg)`
 
