@@ -1,11 +1,11 @@
 # Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk  <br>
  Supplementary materials for the development and validation of atopic dematitis score in utero <br>
- * Full pragnosis model can be found in score_algorithm.py <br>
+ * Full prognosis model can be found in score_algorithm.py <br>
  * Questionnaire.py file is the questionnaire form of the model. Run this code to answer the questions and get an AD risk result per patient. 
 
 ## Table 1 **<br>**
 
-The development and validation patiants characteristics 
+Characteristics of Training & Validation sets
 
 ```
 | Category                       | Sub-category                          | IFPS2 Control (n=1,418) | IFPS2 AD up to 1Y (n=389) | P-Value | LEUMIT Control (n=63,852) | LEUMIT AD up to 3Y (n=7,370) | P-Value |
@@ -33,7 +33,7 @@ The development and validation patiants characteristics
 
 ## Table 2 **<br>**
 
-The adjusted and unadjusted association between the score's varaiables and outcome (AD). <br>
+The adjusted and unadjusted association between variables and outcome (AD). <br>
 This table demonstrated the varaiables individual effect within each group and withing the complete model. 
 
 <img src="table 2.png"/>
