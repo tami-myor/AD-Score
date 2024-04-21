@@ -36,5 +36,5 @@ The development and validation patiants characteristics
 The adjusted and unadjusted association between the score's varaiables and outcome (AD). <br>
 This table demonstrated the varaiables individual effect within each group and withing the complete model. 
 
-`![table 2](table 2.png)`
+<img src="table 2.png"/>
 
