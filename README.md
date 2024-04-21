@@ -3,8 +3,6 @@
 
 ## Table 1 **<br>**
 
-To format this data as a table in Markdown for your README file on GitHub, you can use the following structure. Here, I'm creating a table that aligns with your dataset, separating the headers and rows with pipes (`|`) and ensuring that each column is clearly demarcated with headers and dividers:
-
 ```markdown
 | Category | Sub-category | IFPS2 Control (n=1,418) | IFPS2 AD up to 1Y (n=389) | P-Value | LEUMIT Control (n=63,852) | LEUMIT AD up to 3Y (n=7,370) | P-Value |
 |----------|--------------|-------------------------|--------------------------|---------|--------------------------|-------------------------------|---------|
