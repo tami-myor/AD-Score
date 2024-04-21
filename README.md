@@ -35,8 +35,7 @@ The development and validation patiants characteristics
 
 The adjusted and unadjusted association between the score's varaiables and outcome (AD).
 
-
-![Table 2](C:\Users\User\Desktop\AD\AD score\table 2.jpg)
+![table 2](table 2.png)
 
 ```
 | Characteristic | N | Univariate OR¹ | 95% CI² | p-value | Demography OR' | 95% CI' | p-value | Parents OR' | 95% CI' | p-value | Siblings OR' | 95% CI' | p-value | Multivariate OR' | 95% CI' | p-value |
