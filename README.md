@@ -44,23 +44,31 @@ W is the group’s assign weight, W ⋲ [0,1] <br>
 
 ## The Risk Score Groups
 
-Risk groups were assigned according to the score: <br>
+Risk groups were assigned according to the final score: <br>
 
 The thresholds for the groups were defined according to the distribution of scores in the development (not validation) dataset, depicted below. The median of the AD population is at 0.5 score (the “high risk” group). Between 0.35-0.5 is the most mixed population (the “medium risk” group) and bellow 0.35 the prevalence of the control group is the highest (“low risk” group).
 
 
+<img src="score dist.png"/>
 
 
 Result:
 
 | Risk Score     | Risk Group | Dist. |
 |----------------|------------|-------|
-|  Rn ≥ 0.5      | High       | (30%) |
-|  0.35 ≤ Rn<0.5 | Medium     | (30%) |
+| Rn ≥ 0.5       | High       | (30%) |
+| 0.35 ≤ Rn<0.5  | Medium     | (30%) |
 | Rn < 0.35      | Low        | (40%) |
 
+### ANOVA
 
+There was a significant difference in means among the risk groups in relation to the actual cases of atopic dermatitis (ANOVA, p<0.001)
 
+|             | LR Chisq | df | P-Value |
+|-------------|----------|----|---------|
+| Score Group | 1891     | 2  | <.0001  |
+
+The table above describes the result of ANOVA (Analysis of Deviance Table, Type III tests) for logistic regression. Results show a statistically significant effect of the score group levels (Low, Medium, High) which allows us to reject the null hypothesis and state that the score group has a strong effect on the response variable (AD diagnosis). 
 
 ## Table 1 **<br>**
 
