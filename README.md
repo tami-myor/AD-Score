@@ -3,6 +3,13 @@
  * Full prognosis model can be found in score_algorithm.py <br>
  * Questionnaire.py file is the questionnaire form of the model. Run this code to answer the questions and get an AD risk result per patient.
 
+## Background
+The rise in prevalence of atopic dermatitis has been correlated with numerous elements of the exposome, modern-day lifestyle, and familial history. <br>
+A prognostic atopic dermatitis clinical risk score can empower clinicians to diagnose AD earlier on or to educate caregivers on proven preventive modalities for atopic conditions.  <br>
+Atopic dermatitis can start at a very early age, thus we integrated ONLY prenatal predictors in our prognostic model. <br>
+We aimed to develop a clinical risk score to assess the risk of developing atopic dermatitis using a large and diverse cohort and easily-assessed risk factors. <br> 
+
+
 ## Development - The score's computation
 
 The score was computed in 2 steps: <br>
@@ -149,7 +156,9 @@ Comparing results from the development data set to validation and standard of ca
 | AD Risk Score - Validation Dataset  | 20                     | 15  | -5       | 22     | 2           | 38   | 18        |
 
 *All numbers represent prevalence in population (%).  
-**The deviation is from the base risk according to the relevant population.
+**The deviation is from the base risk according to the relevant population. <br>
+
+The relative risk chages by group compared to the base risk in the population: <br>
 
 
 <img src="result.png"/>
@@ -159,4 +168,12 @@ Variation in AD risk across different group’s scores relative to the existing 
 Both iterations of the score (internal and external validations) perform better than the standard of care for both low and high-risk groups. <br>
 
 
+_**Odds Ratios of the risk groups**_ <br>
+
+
+<img src="forest plot.png"/>
+
+
+Results show that the infants in the “medium” and “high” group scores had significantly higher risk for AD.
+Infants in the “High” group are 4 times more likely to develop AD than the “Low” group.
 
