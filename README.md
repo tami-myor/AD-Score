@@ -30,7 +30,7 @@ Variables from group1: <br>
  
 Var1 Points = (OR_var1g1 / Sum OR_g1) * W_g1 
 
-Combining all the information we collected on the infant, this is the final score: <br>
+Combining all the information we collected, this is the final score: <br>
 
 R_n = (W_g1 * Σ(S_g1n) + W_g2 * Σ(S_g2n) + W_g3 * Σ(S_g3n)) / Max{S_n} + C
 
@@ -56,9 +56,9 @@ Result:
 
 | Risk Score     | Risk Group | Dist. |
 |----------------|------------|-------|
-| Rn ≥ 0.5       | High       | (30%) |
-| 0.35 ≤ Rn<0.5  | Medium     | (30%) |
-| Rn < 0.35      | Low        | (40%) |
+| Rn ≥ 0.5       | High       | 30%   |
+| 0.35 ≤ Rn<0.5  | Medium     | 30%   |
+| Rn < 0.35      | Low        | 40%   |
 
 ### ANOVA
 
@@ -69,6 +69,28 @@ There was a significant difference in means among the risk groups in relation to
 | Score Group | 1891     | 2  | <.0001  |
 
 The table above describes the result of ANOVA (Analysis of Deviance Table, Type III tests) for logistic regression. Results show a statistically significant effect of the score group levels (Low, Medium, High) which allows us to reject the null hypothesis and state that the score group has a strong effect on the response variable (AD diagnosis). 
+
+## The variables description
+
+| Category                      | Sub-category                          | Type       | Level                           | Description                                                  |
+|-------------------------------|---------------------------------------|------------|--------------------------------|--------------------------------------------------------------|
+| Demography                    |                                       |            |                                |                                                              |
+|                               | Sex                                   | Binary     | Male/Female                    | Sex                                                          |
+|                               | Urbanity                              | Binary     | Urban/Not urban                | Living environment                                           |
+|                               | Birth Season                          | Categorical| Autumn/Summer/Spring/Winter    | Season of birth                                              |
+| Social Economic Status (SES)  |                                       |            |                                |                                                              |
+|                               | SES                                   | Categorical| Medium-Low/Medium-High         | Social Economic status                                       |
+|                               | Smoke record                          | Binary     | Smokers/Non Smokers            | A family member with a documented smoking history            |
+| Family History                |                                       |            |                                |                                                              |
+|                               | Maternal Atopic                       | Binary     | Yes/No                         | Maternal atopic diagnosis                                    |
+|                               | Paternal Atopic                       | Binary     | Yes/No                         | Paternal atopic diagnosis                                    |
+|                               | Parents with atopic dermatitis        | Binary     | Yes/No                         | At least one parent with an AD diagnosis                     |
+|                               | Systemic Antibiotics taken during pregnancy | Categorical | 0/1/2/3                    | Number of systemic antibiotics prescribed during pregnancy  |
+| Sibling History               |                                       |            |                                |                                                              |
+|                               | First Born                            | Binary     | First Born/Not                 | A child without siblings                                      |
+|                               | Percent of Sibling with an atopic condition | Continuous| Yes/No                    | Total siblings with atopic condition divided by total number of siblings |
+|                               | Siblings with atopic dermatitis       | Binary     | Yes/No                         | At least one sibling with an AD diagnosis                     |
+
 
 ## Table 1 **<br>**
 
@@ -104,4 +126,14 @@ The adjusted and unadjusted association between variables and outcome (AD). <br>
 This table demonstrated the varaiables individual effect within each group and withing the complete model. 
 
 <img src="table 2.png"/>
+
+## Results
+
+The joint distribution of age at first AD diagnosis and AD Score <br>
+
+<img src="score age dist.png"/>
+
+Depiction of the correlation between the age at first diagnosis of AD (x-axis) and AD risk scores (y-axis). <br>
+The majority cases of infant AD were diagnosed before 6 months old. <br>
+Higher risk score is more common in infants up to 6 months old. <br>
 
