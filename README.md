@@ -9,12 +9,57 @@ The score was computed in 2 steps: <br>
 By Group: Each group was assigned a weight according to the pseudo R square values from a multivariate logistic regression. The groups each have an individual effect on the model, making the R-squared value cumulative. There is almost no interaction effect between the groups, allowing us to measure their individual effects separately <br>
 By Variable: Individual variables are assigned an OR according to a logistic regression model fitted specifically for that group. The OR is then normalized with the group’s weight to calculate the final point of the variable. For example, the following table shows the R2 group value and corresponding weight ratio and the subsequent table shows the calculation of an individual variable's weights using its respective OR. The equation below demonstrates the mathematical description described in the tables.  <br>
 
+Here is an example for the points computation by group and by variable: <br>
 
 | Group           | R2  | Explanatory Weight Ratio for points |
 |-----------------|-----|-------------------------------------|
 | Group1          | 0.2 | 20                                  |
 | Group2          | 0.1 | 10                                  |
 | Group3          | 0.1 | 10                                  |
+
+Variables from group1: <br>
+
+| Group Variables | OR  | Normalized score to the group’s weight |
+|-----------------|-----|----------------------------------------|
+| Var1            | 1   | 4                                      |
+| Var2            | 2   | 8                                      |
+| Var3            | 1   | 4                                      |
+| Var4            | 0.5 | 2                                      |
+| Var5            | 0.5 | 2                                      |
+
+ 
+Var1 Points = (OR_var1g1 / Sum OR_g1) * W_g1 
+
+Combining all the information we collected on the infant, this is the final score: <br>
+
+R_n = (W_g1 * Σ(S_g1n) + W_g2 * Σ(S_g2n) + W_g3 * Σ(S_g3n)) / Max{S_n} + C
+
+
+Where: <br>
+Rn denote the AD risk per patient so that Rn ⋲ [C,1] <br>
+Sn is the score according to the patient’s parameters <br> 
+C denote the underlying population prevalence of AD <br> 
+W is the group’s assign weight, W ⋲ [0,1] <br>
+
+
+## The Risk Score Groups
+
+Risk groups were assigned according to the score: <br>
+
+The thresholds for the groups were defined according to the distribution of scores in the development (not validation) dataset, depicted below. The median of the AD population is at 0.5 score (the “high risk” group). Between 0.35-0.5 is the most mixed population (the “medium risk” group) and bellow 0.35 the prevalence of the control group is the highest (“low risk” group).
+
+
+
+
+Result:
+
+| Risk Score     | Risk Group | Dist. |
+|----------------|------------|-------|
+|  Rn ≥ 0.5      | High       | (30%) |
+|  0.35 ≤ Rn<0.5 | Medium     | (30%) |
+| Rn < 0.35      | Low        | (40%) |
+
+
 
 
 ## Table 1 **<br>**
