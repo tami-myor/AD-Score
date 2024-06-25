@@ -1,7 +1,21 @@
 # Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk  <br>
  Supplementary materials for the development and validation of atopic dematitis score in utero <br>
  * Full prognosis model can be found in score_algorithm.py <br>
- * Questionnaire.py file is the questionnaire form of the model. Run this code to answer the questions and get an AD risk result per patient. 
+ * Questionnaire.py file is the questionnaire form of the model. Run this code to answer the questions and get an AD risk result per patient.
+
+## Development - The score's computation
+
+The score was computed in 2 steps: <br>
+By Group: Each group was assigned a weight according to the pseudo R square values from a multivariate logistic regression. The groups each have an individual effect on the model, making the R-squared value cumulative. There is almost no interaction effect between the groups, allowing us to measure their individual effects separately <br>
+By Variable: Individual variables are assigned an OR according to a logistic regression model fitted specifically for that group. The OR is then normalized with the group’s weight to calculate the final point of the variable. For example, the following table shows the R2 group value and corresponding weight ratio and the subsequent table shows the calculation of an individual variable's weights using its respective OR. The equation below demonstrates the mathematical description described in the tables.  <br>
+
+
+| Group           | R2  | Explanatory Weight Ratio for points |
+|-----------------|-----|-------------------------------------|
+| Group1          | 0.2 | 20                                  |
+| Group2          | 0.1 | 10                                  |
+| Group3          | 0.1 | 10                                  |
+
 
 ## Table 1 **<br>**
 
