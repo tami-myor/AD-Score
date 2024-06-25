@@ -129,11 +129,34 @@ This table demonstrated the varaiables individual effect within each group and w
 
 ## Results
 
-The joint distribution of age at first AD diagnosis and AD Score <br>
+_**The joint distribution of age at first AD diagnosis and AD Score**_ <br>
 
 <img src="score age dist.png"/>
 
 Depiction of the correlation between the age at first diagnosis of AD (x-axis) and AD risk scores (y-axis). <br>
 The majority cases of infant AD were diagnosed before 6 months old. <br>
 Higher risk score is more common in infants up to 6 months old. <br>
+
+
+
+_**Prevalance of AD by risk group**_ <br>
+Comparing results from the development data set to validation and standard of care <br>
+
+|                                 | AD base risk in population | Low | Low dev. | Medium | Medium dev. | High | High dev. |
+|---------------------------------|----------------------------|-----|----------|--------|-------------|------|-----------|
+| Parental History of Atopy       | 10                         | 8   | -2       | -      | -           | 14   | 4         |
+| AD Risk Score - Development Dataset | 10                     | 5   | -5       | 10     | 0           | 17   | 7         |
+| AD Risk Score - Validation Dataset  | 20                     | 15  | -5       | 22     | 2           | 38   | 18        |
+
+*All numbers represent prevalence in population (%).  
+**The deviation is from the base risk according to the relevant population.
+
+
+<img src="result.png"/>
+
+The score was validated on the Infant Feeding Practices Study (IFPS2), a nationally distributed questionnaire study of US households. <br>
+Variation in AD risk across different group’s scores relative to the existing rates of AD within the groups is presented. <br> 
+Both iterations of the score (internal and external validations) perform better than the standard of care for both low and high-risk groups. <br>
+
+
 
