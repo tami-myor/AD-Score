@@ -1,4 +1,4 @@
-# Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk  <br>
+# Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk: Supplementry materials  <br>
  Supplementary materials for the development and validation of atopic dematitis score in utero <br>
  * Full prognosis model can be found in score_algorithm.py <br>
  * Questionnaire.py file is the questionnaire form of the model. Run this code to answer the questions and get an AD risk result per patient.
