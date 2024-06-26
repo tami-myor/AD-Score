@@ -77,8 +77,7 @@ There was a significant difference in means among the risk groups in relation to
 
 The table above describes the result of ANOVA (Analysis of Deviance Table, Type III tests) for logistic regression. Results show a statistically significant effect of the score group levels (Low, Medium, High) which allows us to reject the null hypothesis and state that the score group has a strong effect on the response variable (AD diagnosis). 
 
-## The variables description
-
+## Description of Variables
 | Category                      | Sub-category                          | Type       | Level                           | Description                                                  |
 |-------------------------------|---------------------------------------|------------|--------------------------------|--------------------------------------------------------------|
 | Demography                    |                                       |            |                                |                                                              |
