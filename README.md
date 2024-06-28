@@ -162,6 +162,13 @@ The relative risk chages by group compared to the base risk in the population: <
 
 <img src="result.png"/>
 
+
+Representation of the prevalence of AD across different risk groups, <br>
+with 95% confidence intervals for the prevalence estimates : <br>
+
+<img src="AD prevalence.png"/>
+
+
 The score was validated on the Infant Feeding Practices Study (IFPS2), a nationally distributed questionnaire study of US households. <br>
 Variation in AD risk across different group’s scores relative to the existing rates of AD within the groups is presented. <br> 
 Both iterations of the score (internal and external validations) perform better than the standard of care for both low and high-risk groups. <br>
