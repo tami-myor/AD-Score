@@ -56,7 +56,7 @@ Risk groups were assigned according to the final score: <br>
 The thresholds for the groups were defined according to the distribution of scores in the development (not validation) dataset, depicted below. The median of the AD population is at 0.5 score (the “high risk” group). Between 0.35-0.5 is the most mixed population (the “medium risk” group) and bellow 0.35 the prevalence of the control group is the highest (“low risk” group).
 
 
-<img src="score dist.png"/>
+<img src="images/score dist.png"/>
 
 
 Result:
@@ -131,13 +131,13 @@ Characteristics of Training & Validation sets
 The adjusted and unadjusted association between variables and outcome (AD). <br>
 This table demonstrated the varaiables individual effect within each group and withing the complete model. 
 
-<img src="table 2.png"/>
+<img src="images/table 2.png"/>
 
 ## Results
 
 _**The joint distribution of age at first AD diagnosis and AD Score**_ <br>
 
-<img src="score age dist.png"/>
+<img src="images/score age dist.png"/>
 
 Depiction of the correlation between the age at first diagnosis of AD (x-axis) and AD risk scores (y-axis). <br>
 The majority cases of infant AD were diagnosed before 6 months old. <br>
@@ -160,13 +160,13 @@ Comparing results from the development data set to validation and standard of ca
 The relative risk chages by group compared to the base risk in the population: <br>
 
 
-<img src="result.png"/>
+<img src="images/result.png"/>
 
 
 Representation of the prevalence of AD across different risk groups, <br>
 with 95% confidence intervals for the prevalence estimates : <br>
 
-<img src="AD prevalence.png"/>
+<img src="images/AD prevalence.png"/>
 
 
 The score was validated on the Infant Feeding Practices Study (IFPS2), a nationally distributed questionnaire study of US households. <br>
@@ -177,7 +177,7 @@ Both iterations of the score (internal and external validations) perform better 
 _**Odds Ratios of the risk groups**_ <br>
 
 
-<img src="forest plot.png"/>
+<img src="images/forest plot.png"/>
 
 
 Results show that the infants in the “medium” and “high” group scores had significantly higher risk for AD.
