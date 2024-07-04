@@ -137,11 +137,10 @@ This table demonstrated the varaiables individual effect within each group and w
 
 _**The joint distribution of age at first AD diagnosis and AD Score**_ <br>
 
+Joint Distribution of Age at First Atopic Dermatitis Diagnosis and Atopic Dermatitis Score – Depiction of the correlation between the age at first diagnosis of AD and AD risk scores. The distribution of AD scores is displayed on the x-axis, and the individual distribution of the age at first AD diagnosis is displayed on the y-axis. A notable concentration of data points (darker area) is observed in the first six months and an AD score of 0.4-0.6.
+
 <img src="images/score age dist.png"/>
 
-Depiction of the correlation between the age at first diagnosis of AD (x-axis) and AD risk scores (y-axis). <br>
-The majority cases of infant AD were diagnosed before 6 months old. <br>
-Higher risk score is more common in infants up to 6 months old. <br>
 
 
 
@@ -169,9 +168,8 @@ with 95% confidence intervals for the prevalence estimates : <br>
 <img src="images/AD prevalence.png"/>
 
 
-The score was validated on the Infant Feeding Practices Study (IFPS2), a nationally distributed questionnaire study of US households. <br>
-Variation in AD risk across different group’s scores relative to the existing rates of AD within the groups is presented. <br> 
-Both iterations of the score (internal and external validations) perform better than the standard of care for both low and high-risk groups. <br>
+Internal & External Validation - Variation in AD risk across different group scores relative to the existing rates of AD within the population, with 95% confidence intervals. The percentages displayed above the bars denote the frequency of AD occurrence within each respective risk group. Both iterations of the score (internal and external validations) perform better than the standard of care for both low and high-risk groups. <br>
+
 
 
 _**Odds Ratios of the risk groups**_ <br>
