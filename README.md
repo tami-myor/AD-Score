@@ -35,11 +35,12 @@ Variables from group1: <br>
 | Var5            | 0.5 | 2                                      |
 
  
-Var1 Points = (OR_var1g1 / Sum OR_g1) * W_g1 
 
 Combining all the information we collected, this is the final score: <br>
 
-R_n = (W_g1 * Σ(S_g1n) + W_g2 * Σ(S_g2n) + W_g3 * Σ(S_g3n)) / Max{S_n} + C
+R_n = (W_g1 * Σ(S_g1n) + W_g2 * Σ(S_g2n) + W_g3 * Σ(S_g3n)) / Max{S_n} + C  <br>
+
+The full computation is availabe at score_algorithm.py
 
 
 Where: <br>
