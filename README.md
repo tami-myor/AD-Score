@@ -40,14 +40,14 @@ Combining all the information we collected, this is the final score: <br>
 
 R_n = (W_g1 * Σ(S_g1n) + W_g2 * Σ(S_g2n) + W_g3 * Σ(S_g3n)) / Max{S_n} + C  <br>
 
-The full computation is availabe at score_algorithm.py
-
-
 Where: <br>
 Rn denote the AD risk per patient so that Rn ⋲ [C,1] <br>
 Sn is the score according to the patient’s parameters <br> 
 C denote the underlying population prevalence of AD <br> 
 W is the group’s assign weight, W ⋲ [0,1] <br>
+
+The full computation is availabe at score_algorithm.py
+
 
 
 ## The Risk Score Groups
