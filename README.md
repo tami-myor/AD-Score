@@ -160,7 +160,7 @@ Comparing results from the development data set to validation and standard of ca
 The relative risk chages by group compared to the base risk in the population: <br>
 
 
-<img src="images/result.png"/>
+<img src="images/image.png"/>
 
 
 Representation of the prevalence of AD across different risk groups, <br>
