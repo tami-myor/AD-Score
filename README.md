@@ -12,6 +12,8 @@ We aimed to develop a clinical risk score to assess the risk of developing atopi
 
 ## Supplementary Methods
 
+International Classification of Diseases Clinical Modification, 9th Revision (ICD9), code 691- Atopic dermatitis and related condition or code 691.8 – other atopic dermatitis and related conditions, as recorded in the patient's EMR was used to determine AD diagnosis. <br> 
+
 The score was computed in 2 steps: <br>
 By Group: Each group was assigned a weight according to the pseudo R square values from a multivariate logistic regression. The groups each have an individual effect on the model, making the R-squared value cumulative. There is almost no interaction effect between the groups, allowing us to measure their individual effects separately <br>
 By Variable: Individual variables are assigned an OR according to a logistic regression model fitted specifically for that group. The OR is then normalized with the group’s weight to calculate the final point of the variable. For example, the following table shows the R2 group value and corresponding weight ratio and the subsequent table shows the calculation of an individual variable's weights using its respective OR. The equation below demonstrates the mathematical description described in the tables.  <br>
