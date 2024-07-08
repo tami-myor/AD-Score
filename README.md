@@ -1,4 +1,4 @@
-# Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk: Supplementry materials  <br>
+# Development and Validation of a Prognostic Clinical Risk Score for Subsequent Atopic Dermatitis Risk: Supplementary materials  <br>
  Supplementary materials for the development and validation of atopic dematitis score in utero <br>
  * Full prognosis model can be found in score_algorithm.py <br>
  * Questionnaire.py file is the questionnaire form of the model. Run this code to answer the questions and get an AD risk result per patient.
@@ -10,7 +10,7 @@ Atopic dermatitis can start at a very early age, thus we integrated ONLY prenata
 We aimed to develop a clinical risk score to assess the risk of developing atopic dermatitis using a large and diverse cohort and easily-assessed risk factors. <br> 
 
 
-## Development - The score's computation
+## Supplementary Methods
 
 The score was computed in 2 steps: <br>
 By Group: Each group was assigned a weight according to the pseudo R square values from a multivariate logistic regression. The groups each have an individual effect on the model, making the R-squared value cumulative. There is almost no interaction effect between the groups, allowing us to measure their individual effects separately <br>
